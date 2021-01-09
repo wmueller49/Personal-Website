@@ -27,8 +27,7 @@ video{
 	max-width: 100%;
 }
 
-.container-fluid img:hover{
-	transform: scale(.9);
+#blenderImg img:hover{
 	cursor: pointer;
 }
 

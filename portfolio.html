@@ -30,7 +30,7 @@
 							<a class="nav-link" href="portfolio.html">Portfolio</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="unavailable.html">Resume</a>
+							<a class="nav-link" href="cv.pdf">Resume</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="#contact">Contact</a>
@@ -54,39 +54,67 @@
 		</div>
 
 		<!--Programs-->
-
-		<div id="slides" class="carousel slide" data-ride="carousel">
-			<ul class="carousel-indicators">
-				<li data-target="#slides" data-slide-to="0" class="active"></li>
-				<li data-target="#slides" data-slide-to="1"></li>
-				<li data-target="#slides" data-slide-to="2"></li>
-			</ul>
-			<div class="carousel-inner">
-
-				<div class="carousel-item active">
-					<img src="img/javaLogo.jpg">
-					<div id="portfolio-caption" class="carousel-caption">
-						<button onclick="window.location.href = 'https://github.com/wmueller49/DE-CSII';" type="button" class="btn btn-outline-light btn-lg">Source</button>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-4" align="center">
+					<div class="card" style="width: 24rem;">
+					  <img class="card-img-top" src="img/javaLogo.jpg" alt="Card image cap">
+					  <div class="card-body">
+					    <h5 class="card-title">DE CSII Projects</h5>
+					    <p class="card-text">All projects for DE CSII, written in Java</p>
+					    <a href="https://github.com/wmueller49/DE-CSII" class="btn btn-primary">Source Code</a>
+					  </div>
 					</div>
 				</div>
-
-				<div class="carousel-item">
-					<img src="img/onlineWhiteboard.png">
-					<div id="portfolio-caption" class="carousel-caption">
-						<button onclick="window.location.href = 'https://wmueller49.github.io/Whiteboard/';" type="button" class="btn btn-outline-light btn-lg">Website</button>
-						<button onclick="window.location.href = 'https://github.com/wmueller49/Whiteboard';" type="button" class="btn btn-outline-light btn-lg">Source</button>
+				<div class="col-4" align="center">
+					<div class="card" style="width: 24rem;">
+					  <img class="card-img-top" src="img/aStar.png" alt="Card image cap">
+					  <div class="card-body">
+					    <h5 class="card-title">A* Search Algorithm Visualization</h5>
+					    <p class="card-text">A visualization of the A* search algorithm, written in Java</p>
+					    <a href="https://github.com/wmueller49/JavaSearching" class="btn btn-primary">Source Code</a>
+					  </div>
 					</div>
 				</div>
+				<div class="col-4" align="center">
+					<div class="card" style="width: 24rem;">
+					  <img class="card-img-top" src="img/chess.jpg" alt="Card image cap">
+					  <div class="card-body">
+					    <h5 class="card-title">Chess Visualization Tool</h5>
+					    <p class="card-text">Shows a random chess position from a game that must be replicated using visual memory, written in JavaScript</p>
+					    <a href="https://github.com/wmueller49/ChessAnalysis" class="btn btn-primary">Source Code</a>
+					    <a href="https://wmueller49.github.io/ChessAnalysis/" class="btn btn-primary">Website</a>
+					  </div>
+					</div>
+				</div>
+			</div>
 
-				<div class="carousel-item">
-					<img src="img/logicIcon.jpg">
-					<div id="portfolio-caption" class="carousel-caption">
-						<button onclick="window.location.href = 'https://wmueller49.github.io/Logic-and-Number-Website/index.html';" type="button" class="btn btn-outline-light btn-lg">Website</button>
-						<button onclick="window.location.href = 'https://github.com/wmueller49/Logic-and-Number-Website';" type="button" class="btn btn-outline-light btn-lg">Source</button>
+			<div class="row">
+				<div class="col-6" align="center">
+					<div class="card" style="width: 24rem;">
+					  <img class="card-img-top" src="img/logicIcon.jpg" alt="Card image cap">
+					  <div class="card-body">
+					    <h5 class="card-title">Logic and Number Website</h5>
+					    <p class="card-text">Website to help students with number conversions and truth tables, written in JavaScript</p>
+					    <a href="https://github.com/wmueller49/Logic-and-Number-Website" class="btn btn-primary">Source Code</a>
+					    <a href="https://wmueller49.github.io/Logic-and-Number-Website/index.html" class="btn btn-primary">Website</a>
+					  </div>
+					</div>
+				</div>
+				<div class="col-6" align="center">
+					<div class="card" style="width: 24rem;">
+					  <img class="card-img-top" src="img/onlineWhiteboard.png" alt="Card image cap">
+					  <div class="card-body">
+					    <h5 class="card-title">Online Whiteboard</h5>
+					    <p class="card-text">Fun little online whiteboard, written in JavaScript</p>
+					    <a href="https://github.com/wmueller49/Whiteboard" class="btn btn-primary">Source Code</a>
+					    <a href="https://wmueller49.github.io/Whiteboard/" class="btn btn-primary">Website</a>
+					  </div>
 					</div>
 				</div>
 			</div>
 		</div>
+
 
 		<!--Blender-->
 		<div class="container-fluid padding">
@@ -98,7 +126,7 @@
 			</div>
 		</div>
 
-		<div class="container-fluid padding">
+		<div class="container-fluid padding" id="blenderImg">
 			<div class="row text-center padding">
 				<div class="col-sm">
 					<img src="img/lightbulbs.png" onclick="window.open('img/lightbulbs.png')">
@@ -113,9 +141,6 @@
 				</div>
 			</div>
 			<hr class="my-4">
-		</div>
-
-		<div class="container-fluid padding">
 			<div class="row text-center padding">
 				<div class="col-sm">
 					<img src="img/room.png" onclick="window.open('img/room.png')">
@@ -131,9 +156,6 @@
 				</div>
 			</div>
 			<hr class="my-4">
-		</div>
-
-		<div class="container-fluid padding">
 			<div class="row text-center padding">
 				<div class="col-sm">
 					<img src="img/cards.jpg" onclick="window.open('img/cards.jpg')"> 
